@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Skeleton Key</title>
+  <meta name="description" content="Every lock opens three ways. Each way has a price." />
+  <meta name="theme-color" content="#0b0806" />
+  <meta http-equiv="Cache-Control" content="no-cache" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='28' cy='50' r='16' fill='none' stroke='%23e9d9a6' stroke-width='9'/%3E%3Crect x='42' y='45' width='48' height='10' fill='%23e9d9a6'/%3E%3Crect x='70' y='55' width='7' height='14' fill='%23e9d9a6'/%3E%3Crect x='82' y='55' width='7' height='18' fill='%23e9d9a6'/%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Inter:wght@400;500;600&display=swap" />
+  <link rel="stylesheet" href="./src/engine/ui.css?v=1" />
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "./vendor/three/three.module.js",
+        "three/addons/": "./vendor/three/addons/"
+      }
+    }
+  </script>
+</head>
+<body>
+  <canvas id="game-canvas" tabindex="0"></canvas>
+  <div id="ui"></div>
+  <noscript><p style="color:#f0e3c4;font-family:Georgia,serif;text-align:center;margin-top:40vh">This game needs JavaScript. The house can wait.</p></noscript>
+  <script type="module" src="./src/main.js?v=1"></script>
+</body>
+</html>
